@@ -1,4 +1,4 @@
-# ASL-Swin-B :-
+# ASL-Video-Swin-Tiny :-
 Implementation of American-Sign-Language recognition using Video-Swin-Transformer which was pretrained on kinetics-400 dataset.   
 
 # Dataset Description :- 
@@ -22,6 +22,17 @@ Before feeding videos into the model for training and validation we performed th
 3. Flip
 
 # Model-Setting :-
+
+1. Video-swin-transformer tiny pretrained on kinetics-400 dataset and fine-tuned on 30 epochs.
+2. AdamW optimiser and cosineannealinglr, linearlr for regulizer
+
+# Notes :-
+Used MMAction2([https://github.com/open-mmlab/mmaction2](url)) for getting pretrained video-swin-transformer and finetuning purpose
+
+# Accuracy -
+
+top1/acc - 53.91%
+top5/acc - 91.30%
 
 
 
