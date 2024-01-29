@@ -24,7 +24,7 @@ Before feeding videos into the model for training and validation we performed th
 # Model-Setting :-
 
 1. Video-swin-transformer tiny pretrained on kinetics-400 dataset and fine-tuned on 30 epochs.
-2. AdamW optimiser and cosineannealinglr, linearlr for regulizer
+2. AdamW optimiser and cosineannealinglr, linearlr for regularizer
 
 # Notes :-
 Used MMAction2([https://github.com/open-mmlab/mmaction2](url)) for getting pretrained video-swin-transformer and finetuning purpose
