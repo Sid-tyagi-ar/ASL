@@ -29,6 +29,7 @@ Before feeding videos into the model for training and validation we performed th
 # Notes :-
 1. Used MMAction2([https://github.com/open-mmlab/mmaction2](url)) for getting pretrained video-swin-transformer and finetuning purpose.
 2. https://drive.google.com/file/d/1M2x5fQvMvmI3pia2ArxfPrTMaGdEykAR/view?usp=sharing - Checkpoint file for using the trained weights for further uses.
+3. For using Master_file please refer to mmaction2 documentation for the structural understanding and required packages for running both Master_file and visualizer.py .
 # Accuracy -
 top1/acc - 53.91%
 top5/acc - 91.30%
