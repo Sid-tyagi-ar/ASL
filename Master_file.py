@@ -22,12 +22,12 @@ os.environ['TORCH_USE_CUDA_DSA']='1'
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = r"C:\Users\Sid1t\OneDrive\Documents\asl\Training_final"
-data_root_val = r"C:\Users\Sid1t\OneDrive\Documents\asl\Validation_final"
-data_root_test = r"C:\Users\Sid1t\OneDrive\Documents\asl\Testing_final"
-ann_file_train = r"C:\Users\Sid1t\OneDrive\Documents\asl\TrainDataFinal.txt"
-ann_file_val = r"C:\Users\Sid1t\OneDrive\Documents\asl\ValDataFinal.txt"
-ann_file_test = r"C:\Users\Sid1t\OneDrive\Documents\asl\TestDataFinal.txt"
+data_root = r"Training_final"
+data_root_val = r"CValidation_final"
+data_root_test = r"Testing_final"
+ann_file_train = r"TrainDataFinal.txt"
+ann_file_val = r"ValDataFinal.txt"
+ann_file_test = r"TestDataFinal.txt"
 
 file_client_args = dict(io_backend='disk')
 train_pipeline = [
