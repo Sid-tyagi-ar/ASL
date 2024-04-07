@@ -33,6 +33,9 @@ Before feeding videos into the model for training and validation we performed th
 # Accuracy -
 top1/acc - 53.91%
 top5/acc - 91.30%
+#TO-DO 
+1) Implement live translation 
+2) Implement An LLM architecture for turning the translated words into meaningful sentences after receiving the words.
 
 
 
